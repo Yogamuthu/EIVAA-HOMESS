@@ -1,0 +1,93 @@
+.projects-section {
+  font-family:'Source Serif 4';
+  min-height: 100vh;
+  background-image: url('../images/projects/anthara.webp');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-bottom: 80px;
+  max-width: 100vw;
+  
+}
+
+.projects-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.projects-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+.projects-paragraph {
+   font-family:'Lucida Sans', Arial, sans-serif;
+  
+}
+
+
+
+.projects-carousel-btn {
+      font-family:'Source Serif 4';
+      font-size: 18px; 
+      font-weight: 600;
+      padding: 6px 18px; 
+      color:white;
+      border: 2px solid white;
+      border-radius: 0;
+}
+
+.anthara-section{
+  font-family:'Source Serif 4';
+}
+
+.anthara-section-title {
+  font-family:'Source Serif 4';
+}
+
+.anthara-section-para {
+    width:90%;
+    text-align: justify;
+}
+
+.anthara-section-btn {
+   font-family:'Source Serif 4';
+      font-size: 18px; 
+      font-weight: 600;
+      padding: 6px 18px; 
+      color:black;
+      border: 2px solid black;
+      border-radius: 0;
+}
+
+.anthara-section-btn:hover {
+   font-family:'Source Serif 4';
+      font-size: 18px; 
+      font-weight: 600;
+      padding: 6px 18px; 
+      color:white;
+      background-color: black;
+      border: 2px solid black;
+      border-radius: 0;
+}
+
+.card-line-1 {font-family:'Source Serif 4';
+             font-size: 20px; }
+
+.card-line-2 { font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+                font-size: 18px; }
+
+.legacy-title {font-family:'Source Serif 4';
+             }
+
+.iva-title {font-family:'Source Serif 4';
+             }
+

@@ -1,0 +1,313 @@
+.about-us-section {
+  font-family:'Source Serif 4';
+  min-height: 100vh;
+  background-image: url('../images/about/entrance.webp');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-bottom: 80px;
+  max-width: 100vw;
+}
+
+
+.about-us-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.about-us-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+
+.about-us-paragraph {
+  font-family:'Lucida Sans', Arial, sans-serif;
+  
+  
+}
+
+.about-us-carousel-btn {
+   font-family:'Source Serif 4';
+      font-size: 18px; 
+      font-weight: 600;
+      padding: 6px 18px; 
+      color:white;
+      border: 2px solid white;
+      border-radius: 0;
+}
+
+.video-button {
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 18px;
+  font-size: 0.9rem;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+@media (max-width: 991.98px) {
+  .video-wrapper video {
+    height: auto !important;
+    max-height: 400px;
+  }
+}
+
+.dreams-head {font-family:'Source Serif 4';}
+
+.dreams-head {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .dreams-head {
+    font-size: 2.5rem;
+  }
+}
+
+
+/* Optional styles to match proportions in image */
+.number-section h1 {
+  font-family:'Source Serif 4';
+  font-weight: 500;
+ 
+}
+
+.number-section p {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+.video-button {
+  padding: 0.5rem 1rem;
+}
+
+.box-section {
+  font-family: "Domine", serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.process-step {
+  margin-top:50px ;
+  flex:1;
+  height:500px;
+  background-size: cover;
+  background-position: center;
+  transition: flex 0.5s ease;
+  position: relative;
+  min-width: 200px;
+  cursor: pointer;
+}
+
+.process-step:hover {
+  flex:1.5;
+}
+
+.process-step .overlay {
+  font-family:'Source Serif 4';
+  height: 100%;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 90px;
+  transition: background-color 0.3s;
+}
+
+#overlay {
+  
+  padding-top: 380px;
+  
+}
+
+.process-step h2 {
+  font-weight: 600; 
+}
+
+
+
+
+ /* Smooth transition for movement  */
+.transition-move {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+ /* h5 movement  */
+.move-up {
+  transform: translateY(-120px);
+  padding-left: 30px;
+  padding-right: 90px;
+}
+
+.move-down {
+  transform: translateY(0);
+}
+
+/* Fade-up animation for p tag  */
+.fade-up {
+  
+  animation: fadeUp 0.5s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-120px);
+    padding-left: 30px;
+    
+  }
+}
+.vision-box {
+  font-family:'Source Serif 4';
+  font-size:45px;
+  
+}
+
+.architect-vision {
+  font-family:'Source Serif 4';
+  background-color: white;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+  font-size:55px;
+  
+}
+
+.quote {font-family: "Handlee", cursive;
+        }
+
+.quote-person {
+  font-family: "Seaweed Script", cursive;
+  font-weight: 500;
+}
+
+.about-paragraph {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  
+}
+
+.about-us-carousel-btn {
+   font-family:'Source Serif 4';
+      font-size: 18px; 
+      font-weight: 600;
+      padding: 6px 18px; 
+      color:white;
+      border: 2px solid white;
+      border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

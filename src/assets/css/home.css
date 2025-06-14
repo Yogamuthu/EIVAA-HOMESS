@@ -1,0 +1,160 @@
+#video{    
+    margin: 0;
+}
+
+.carousel-caption {
+  padding-left: 40px;
+  padding-top: 540px;
+  width: 100vw;
+ 
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.home-section-heading {
+  font-family:'Source Serif 4';
+}
+
+.home-section-paragraph{
+   font-family:'Lucida Sans', Arial, sans-serif;
+}
+
+.about {
+  font-family:'Source Serif 4';
+  
+}
+
+.home-structure {
+  font-family:'Source Serif 4';
+  
+}
+
+.count{
+  font-family: "Domine", serif;
+}
+
+.digit-wrapper {
+  width: 25px; /* or appropriate width */
+  height: 30px; /* height of one digit */
+  overflow: hidden;
+  position: relative;
+}
+
+.digit-scroll {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(0);
+}
+
+.digit {
+  height: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+
+
+
+.counter-box h1 .digit {
+  font-family: "Domine", serif;
+    font-size: 36px;
+   
+ 
+}
+
+
+
+.project-head {
+  font-family:'Source Serif 4';
+}
+
+
+.dream-btn {   font-family:'Source Serif 4';
+              font-size: 16px; 
+                font-weight: 600;
+                padding: 6px 18px; 
+                color: #bf7000;
+                border: 2px solid #bf7000;
+                border-radius: 0;
+                cursor: pointer;}
+
+.dream-btn:hover {
+    font-family:'Source Serif 4';
+    font-size: 16px; 
+    font-weight: 600;
+    padding: 6px 18px; 
+    border-radius: 0;
+    background-color: rgb(254, 175, 37);
+    color: black;
+}
+
+.about-us-btn {
+      font-family:'Source Serif 4';
+      font-size: 16px; 
+      font-weight: 600;
+      padding: 6px 18px; 
+      color: #bf7000;
+      border: 2px solid #bf7000;
+      border-radius: 0;
+      cursor: pointer;
+}
+
+.about-us-btn:hover{
+    font-family:'Source Serif 4';
+    font-size: 16px; 
+    font-weight: 600;
+    padding: 6px 18px; 
+    border-radius: 0;
+    background-color: rgb(254, 175, 37);
+    color: black;
+}
+
+
+
+.projects-btn {
+      font-family:'Source Serif 4';
+      font-size: 16px; 
+      font-weight: 600;
+      color:white;
+      border: 2px solid white;
+      border-radius: 0;
+}
+
+.home-carousel-btn {
+   font-family:'Source Serif 4';
+      font-size: 18px; 
+      font-weight: 600;
+      padding: 6px 18px; 
+      color:white;
+      border: 2px solid white;
+      border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

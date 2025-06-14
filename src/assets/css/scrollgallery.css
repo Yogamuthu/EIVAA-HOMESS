@@ -1,0 +1,54 @@
+/*Gallery*/
+
+.scroll-gallery {
+    font-family:'Source Serif 4';
+    width:100%;
+}
+
+.scroll-gallery-wrapper {
+  overflow:hidden;
+  position: relative;
+  width: 100%;
+ 
+}
+
+.scroll-gallery-track {
+  display: flex;
+  animation: scroll-left 10s linear infinite;
+  width: max-content;
+ 
+}
+
+.scroll-gallery-item {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.scroll-gallery-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+
+.scroll-gallery-btn {
+      font-family:'Source Serif 4';
+      font-size: 16px; 
+      font-weight: 600;
+      color:white;
+      border: 2px solid white;
+      border-radius: 0;
+}

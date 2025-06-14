@@ -1,0 +1,13 @@
+.navbar { font-family:'Lucida Sans', Arial, sans-serif;}
+.custom-link {
+  color: black;
+  transition: color 0.3s;
+  font-weight: 500;
+}
+
+.custom-link.active {
+  color: #bf7000 !important; /* your custom active color */
+  font-weight: 500;
+}
+
+
